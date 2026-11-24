@@ -8,3 +8,5 @@
 .logs/
 assets/videos/
 skills-lock.json
+*.png
+*.svg

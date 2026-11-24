@@ -41,7 +41,8 @@ Final pitch to CEO, CMO (Giulia Ferraris) and CFO (Marco Bellini, the hardest to
 - Graph covers `docs/`, `data/`, `assets/Brand kit/` and `.claude/*.md`. Noise is excluded in `.graphifyignore`.
 - After code changes, run `graphify update .` (AST-only, free; the post-commit hook does it too).
   After doc/data changes, run `/graphify . --update`.
-- `graphify-out/` is gitignored; each teammate builds it locally with `/graphify .`.
+- `graphify-out/` is gitignored; each teammate builds it locally with `/graphify .`. First install the
+  extras so docx/xlsx/pdf are read: `uv tool install "graphifyy[office,pdf]"`.
 
 ## gstack
 
