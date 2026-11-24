@@ -23,6 +23,24 @@
         "value": "arial",
         "createdAt": "2026-11-19T19:30:05.375Z",
         "reason": "Claude: diagram mirrors Reply's own brief slide, which is set in Arial; matching it is the point"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "graphify-out/graph.html"
+        ],
+        "createdAt": "2026-11-24T15:49:39.817Z",
+        "reason": "Claude: generated graphify visualization, gitignored, not a project UI"
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "graphify-out/graph.html"
+        ],
+        "createdAt": "2026-11-24T15:49:39.856Z",
+        "reason": "Claude: generated graphify visualization, gitignored, not a project UI"
       }
     ]
   }
