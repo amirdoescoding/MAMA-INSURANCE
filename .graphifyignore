@@ -1,0 +1,12 @@
+# Keep the graph on the case: docs/, data/, brand kit text, .claude/*.md
+.claude/agents/
+.claude/skills/
+.claude/impeccable-*.md
+.venv/
+.gstack/
+.impeccable/
+.logs/
+assets/videos/
+skills-lock.json
+*.png
+*.svg
